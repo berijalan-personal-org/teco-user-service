@@ -36,7 +36,7 @@ data class MasterUserEntity(
     var password: String,
 
     @Column(name = "name")
-    var username: String,
+    var name: String,
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "id_membership")
